@@ -12,57 +12,42 @@
   <meta name="description" content="">
   <meta name="keywords" content="">
 
-  <!-- Favicons -->
   <link href="{% static 'app/assets/img/favicon.png' %}" rel="icon">
   <link href="{% static 'app/assets/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
 
-  <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
   <link href="{% static 'app/assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
   <link href="{% static 'app/assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
-  <link href="{% static 'app/assets/vendor/aos/aos.css" rel="stylesheet' %}">
+  <link href="{% static 'app/assets/vendor/aos/aos.css' %}" rel="stylesheet">
   <link href="{% static 'app/assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
   <link href="{% static 'app/assets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
 
-  <!-- Main CSS File -->
   <link href="{% static 'app/assets/css/main.css' %}" rel="stylesheet">
 </head>
 
 <body class="about-page">
   <main class="main">
 
-    <!-- About Section -->
     <section id="about" class="about section">
 
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>About</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam</p>
-      </div><!-- End Section Title -->
+      </div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <!-- Intro + Photo -->
         <div class="row align-items-center justify-content-between gy-5 mb-5">
           <div class="col-lg-7" data-aos="fade-right" data-aos-delay="150">
             <div class="intro-content">
               <span class="eyebrow">Hello there</span>
-              <h2 class="headline">Hi, I'm Brandon - a calm-minded creative developer crafting serene digital journeys</h2>
-              <p class="lead">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque habitant morbi tristique senectus et netus. Sed interdum, nunc non feugiat tempor, orci lorem luctus ligula, vitae rutrum nisl lorem non nulla.
-              </p>
-              <p>
-                Integer posuere lacus in mi fringilla, eget luctus risus pulvinar. Curabitur a arcu a nisl tempus sagittis. Aenean varius, tortor sed porttitor dictum, augue eros viverra lectus, at efficitur magna lacus in risus.
-              </p>
+              <h2 class="headline">Hi, I'm Dušan Rosić – a dedicated developer focused on building clean, scalable digital solutions that blend functionality with design.</h2>
+
+              <h2><strong>I’ve been coding since before AI became a buzzword.</strong></h2>
 
               <div class="cta-group">
-                <a href="#portfolio" class="btn-ghost">
-                  View My Work <i class="bi bi-arrow-up-right"></i>
-                </a>
                 <a href="#" class="link-underline">
                   Download Resume <i class="bi bi-download"></i>
                 </a>
@@ -72,371 +57,229 @@
 
           <div class="col-lg-5" data-aos="zoom-in" data-aos-delay="250">
             <figure class="profile-figure text-center text-lg-end">
-              <img src="{% static 'app/assets/img/profile/profile-square-11.webp' %}" alt="Portrait of Alex" class="img-fluid profile-photo">
+              <img src="{% static 'app/assets/img/profile/croped_profile.png' %}" alt="Dušan Rosić" class="img-fluid profile-photo">
             </figure>
           </div>
         </div>
-        <!-- End Intro + Photo -->
 
-        <!-- Skills Grid -->
-        <div class="mb-5">
-          <div class="row g-4">
-            <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="120">
-              <div class="skill-item">
-                <i class="bi bi-layout-text-window"></i>
-                <h3>UI/UX</h3>
-                <p>Vivamus sagittis lacus molestie placerat.</p>
-              </div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="180">
-              <div class="skill-item">
-                <i class="bi bi-code-slash"></i>
-                <h3>React.js</h3>
-                <p>Maecenas pharetra magna sit amet risus.</p>
-              </div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="240">
-              <div class="skill-item">
-                <i class="bi bi-phone"></i>
-                <h3>Mobile-first</h3>
-                <p>Donec id elit non mi porta gravida.</p>
-              </div>
-            </div>
-            <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="300">
-              <div class="skill-item">
-                <i class="bi bi-camera"></i>
-                <h3>Photography</h3>
-                <p>Aliquam euismod nunc at augue cursus.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- End Skills Grid -->
+        <br/><br/><br/>
 
-        <!-- Journey Timeline -->
-        <div class="mb-5">
-          <div class="row g-4">
-            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="120">
-              <article class="timeline-item">
-                <span class="dot"></span>
-                <time>2018</time>
-                <h4>B.A. in Design</h4>
-                <p>Quisque euismod turpis ut sapien luctus bibendum.</p>
-              </article>
-            </div>
-            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="180">
-              <article class="timeline-item">
-                <span class="dot"></span>
-                <time>2020</time>
-                <h4>Freelance Start</h4>
-                <p>Mauris non arcu non urna convallis vulputate.</p>
-              </article>
-            </div>
-            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="240">
-              <article class="timeline-item">
-                <span class="dot"></span>
-                <time>2022</time>
-                <h4>Joined Creative Studio</h4>
-                <p>Nunc sed nibh et libero fermentum posuere.</p>
-              </article>
-            </div>
-            <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
-              <article class="timeline-item">
-                <span class="dot"></span>
-                <time>2024</time>
-                <h4>Lead Frontend</h4>
-                <p>Proin commodo massa sit amet urna pretium.</p>
-              </article>
-            </div>
-          </div>
-        </div>
-        <!-- End Journey Timeline -->
+    </section>
 
-        <!-- Quote -->
-        <blockquote class="personal-quote text-center mb-5" data-aos="fade-down" data-aos-delay="200">
-          <p>"Building clean and meaningful experiences through thoughtful code and quiet design."</p>
-        </blockquote>
-        <!-- End Quote -->
-
-        <!-- Fun Facts -->
-        <div class="row g-3 justify-content-center">
-          <div class="col-6 col-md-3 col-lg-2" data-aos="zoom-in" data-aos-delay="120">
-            <div class="fact-pill">
-              <i class="bi bi-magic"></i>
-              <span>Minimalism</span>
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2" data-aos="zoom-in" data-aos-delay="160">
-            <div class="fact-pill">
-              <i class="bi bi-headphones"></i>
-              <span>Lo-fi Beats</span>
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2" data-aos="zoom-in" data-aos-delay="200">
-            <div class="fact-pill">
-              <i class="bi bi-geo-alt"></i>
-              <span>City Walks</span>
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2" data-aos="zoom-in" data-aos-delay="240">
-            <div class="fact-pill">
-              <i class="bi bi-brush"></i>
-              <span>Sketching</span>
-            </div>
-          </div>
-        </div>
-        <!-- End Fun Facts -->
-
-      </div>
-
-    </section><!-- /About Section -->
-
-    <!-- Skills Section -->
     <section id="skills" class="skills section">
 
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
         <h2>Skills</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium totam rem aperiam</p>
-      </div><!-- End Section Title -->
+      </div>
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-
         <div class="row g-4 skills-animation">
+          
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="skill-box">
+              <div class="skill-icon">
+                <i class="fa-brands fa-python"></i>
+              </div>
+              <h3>Python</h3>
+              <p>
+                Using Python to build versatile SaaS applications.
+              </p>
+            </div>
+          </div>
 
           <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
             <div class="skill-box">
-              <h3>HTML</h3>
-              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
-              <span class="text-end d-block">90%</span>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="skill-icon">
+                <i class="fa-brands fa-js"></i>
               </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="200">
-            <div class="skill-box">
-              <h3>CSS</h3>
-              <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur.</p>
-              <span class="text-end d-block">90%</span>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="300">
-            <div class="skill-box">
               <h3>JavaScript</h3>
-              <p>Neque porro quisquam est qui dolorem ipsum quia dolor.</p>
-              <span class="text-end d-block">80%</span>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
+              <p>
+                A little bit of JavaScript never really hurts.
+              </p>
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="400">
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
             <div class="skill-box">
-              <h3>Photoshop</h3>
-              <p>Quis autem vel eum iure reprehenderit qui in ea voluptate.</p>
-              <span class="text-end d-block">55%</span>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">
-                </div>
+              <div class="skill-icon">
+                <img src="{% static 'app/assets/img/icons8-kotlin-50.png' %}" style="filter: brightness(0) invert(1);">
               </div>
+              <h3>Kotlin</h3>
+              <p>
+                Prefered language by Google for Native Android Development. 
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="skill-box">
+              <div class="skill-icon">
+                <img src="{% static 'app/assets/img/icons8-dart-50.png' %}" style="filter: brightness(0) invert(1);">
+              </div>
+              <h3>Dart</h3>
+              <p>
+                Useful for cross-platform application development. 
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="skill-box">
+              <div class="skill-icon">
+                <i class="fab fa-html5"></i>
+              </div>
+              <h3>HTML 5</h3>
+              <p>
+                The backbone of every modern and responsive web page.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="skill-box">
+              <div class="skill-icon">
+                <i class="fa-brands fa-css3-alt"></i>
+              </div>
+              <h3>CSS 3</h3>
+              <p>
+                Styling the web with precision and creative finesse.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="skill-box">
+              <div class="skill-icon">
+                <img src="{% static 'app/assets/img/icons8-django-48.png' %}" style="filter: brightness(0) invert(1);">
+              </div>
+              <h3>Django</h3>
+              <p>
+                Building robust and scalable web backends. As this one :)
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="skill-box">
+              <div class="skill-icon">
+                <span style="font-size: 48px; font-weight: bold; color: white;">Tk</span>
+              </div>
+              <h3>Tkinter</h3>
+              <p>
+                Building lightweight GUI applications in Python.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="skill-box">
+              <div class="skill-icon">
+                <img src="{% static 'app/assets/img/icons8-opencv-48.png' %}" style="filter: brightness(0) invert(1);">
+              </div>
+              <h3>OpenCV</h3>
+              <p>
+                Working with Computer Vision is awesome!
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="skill-box">
+              <div class="skill-icon">
+                <i class="fa-solid fa-database"></i>
+              </div>
+              <h3>SQL</h3>
+              <p>
+                Designing efficient and reliable databases for applications.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="skill-box">
+              <div class="skill-icon">
+                <i class="fa-brands fa-android"></i>
+              </div>
+              <h3>Android SDK</h3>
+              <p>
+                Build Android apps efficiently with Android SDK.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="skill-box">
+              <div class="skill-icon">
+                <!-- Jetpack Compose SVG ikonica -->
+                <svg role="img" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" height="48" width="48">
+                  <title>Jetpack Compose</title>
+                  <path d="M24.27 0.006a5.154 5.154 0 0 0 -2.84 0.688L5.1 10.12a5.154 5.154 0 0 0 -1.906 1.934l7.914 4.34a3.53 3.53 0 0 1 1.206 -1.176l9.902 -5.72a3.522 3.522 0 0 1 3.52 0l9.902 5.72a3.506 3.506 0 0 1 1.052 0.92l7.842 -4.53a5.154 5.154 0 0 0 -1.632 -1.488L26.582 0.694a5.154 5.154 0 0 0 -2.304 -0.68Zm-0.29 9.824a2.72 2.72 0 0 0 -1.36 0.364L12.72 15.906a2.69 2.69 0 0 0 -0.908 0.87l3.84 2.11a2.1 2.1 0 0 1 0.62 -0.55l6.68 -3.856a2.108 2.108 0 0 1 2.102 0l6.672 3.856a2.132 2.132 0 0 1 0.476 0.398l0.036 -0.02 -0.004 -0.004 3.754 -2.16a2.706 2.706 0 0 0 -0.746 -0.644l-9.9 -5.72a2.714 2.714 0 0 0 -1.36 -0.356Zm20.864 2.298 -7.84 4.52a3.514 3.514 0 0 1 0.4 1.624v11.43c0 1.254 -0.664 2.42 -1.76 3.056l-9.9 5.72a3.522 3.522 0 0 1 -1.28 0.428v9.048a5.154 5.154 0 0 0 2.118 -0.626l16.324 -9.426a5.154 5.154 0 0 0 2.578 -4.46V14.594a5.154 5.154 0 0 0 -0.636 -2.456Zm-41.874 0.476a5.154 5.154 0 0 0 -0.454 1.98v18.86c0 1.836 0.982 3.534 2.586 4.458l16.324 9.426a5.14 5.14 0 0 0 2.45 0.672v-9.062a3.522 3.522 0 0 1 -1.666 -0.47L12.312 32.76a3.53 3.53 0 0 1 -1.754 -3.056V18.272a3.552 3.552 0 0 1 0.262 -1.352Zm33.34 4.446 -3.78 2.184a2.116 2.116 0 0 1 0.248 0.92v7.712c0 0.756 -0.4 1.44 -1.052 1.814l-6.672 3.86a2.08 2.08 0 0 1 -0.59 0.214v4.34c0.304 -0.054 0.608 -0.156 0.88 -0.314l9.898 -5.718a2.72 2.72 0 0 0 1.36 -2.36V18.272a2.72 2.72 0 0 0 -0.294 -1.214Zm-24.774 0.26a2.72 2.72 0 0 0 -0.176 0.962v11.43a2.72 2.72 0 0 0 1.36 2.36l9.9 5.72c0.388 0.224 0.824 0.332 1.254 0.354v-4.348a2.108 2.108 0 0 1 -0.92 -0.246L16.28 29.686a2.108 2.108 0 0 1 -1.064 -1.816v-7.706a1.98 1.98 0 0 1 0.154 -0.76l-0.068 -0.026z" fill="#ffffff" stroke-width="2"></path>
+                </svg>
+              </div>
+              <h3>Jetpack Compose</h3>
+              <p>
+                Jetpack Compose: Simple, modern Android UI.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="skill-box">
+              <div class="skill-icon">
+                <img src="{% static 'app/assets/img/icons8-firebase-48.png' %}" style="filter: brightness(0) invert(1);">
+              </div>
+              <h3>Firebase</h3>
+              <p>
+                Firebase provides backend services to power your apps.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="skill-box">
+              <div class="skill-icon">
+                <i class="fa-brands fa-git-alt"></i>
+              </div>
+              <h3>Git</h3>
+              <p>
+                Git is a powerful tool for version control and collaboration.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="skill-box">
+              <div class="skill-icon">
+                <i class="fa-brands fa-github"></i>
+              </div>
+              <h3>Github</h3>
+              <p>
+                GitHub hosts and manages your Git repositories online.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+            <div class="skill-box">
+              <div class="skill-icon" style="font-size: 2rem; color: white;">
+                &#8226; &#8226; &#8226;
+              </div>
+              <h3>And Many More...</h3>
+              <p>Pygame, Godot, Flet, Android Studio, Sublime, ChatGPT, Claude, Cursor...</p>
             </div>
           </div>
 
         </div>
-
       </div>
 
-    </section><!-- /Skills Section -->
-
-    <!-- Stats Section -->
-    <section id="stats" class="stats section dark-background">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row align-items-center">
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="avatars d-flex align-items-center">
-              <img src="{% static 'app/assets/img/person/person-m-2.webp' %}" alt="Avatar 1" class="rounded-circle" loading="lazy">
-              <img src="{% static 'app/assets/img/person/person-m-3.webp' %}" alt="Avatar 2" class="rounded-circle" loading="lazy">
-              <img src="{% static 'app/assets/img/person/person-f-5.webp' %}" alt="Avatar 3" class="rounded-circle" loading="lazy">
-              <img src="{% static 'app/assets/img/person/person-m-5.webp' %}" alt="Avatar 4" class="rounded-circle" loading="lazy">
-            </div>
-          </div>
-
-          <div class="col-lg-8">
-            <div class="row counters">
-              <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
-                <h2><span data-purecounter-start="0" data-purecounter-end="185" data-purecounter-duration="1" class="purecounter"></span>+</h2>
-                <p>Nemo enim ipsam</p>
-              </div>
-
-              <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
-                <h2><span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>K</h2>
-                <p>Voluptatem sequi</p>
-              </div>
-
-              <div class="col-md-4" data-aos="fade-up" data-aos-delay="500">
-                <h2><span data-purecounter-start="0" data-purecounter-end="128" data-purecounter-duration="1" class="purecounter"></span>+</h2>
-                <p>Dolor sit consectetur</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </section><!-- /Stats Section -->
-
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Testimonials</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              }
-            }
-          </script>
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <div class="row gy-4 justify-content-center">
-                  <div class="col-lg-6">
-                    <div class="testimonial-content">
-                      <p>
-                        <i class="bi bi-quote quote-icon-left"></i>
-                        <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
-                        <i class="bi bi-quote quote-icon-right"></i>
-                      </p>
-                      <h3>Saul Goodman</h3>
-                      <h4>Ceo &amp; Founder</h4>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-2 text-center">
-                    <img src="{% static 'app/assets/img/person/person-m-9.webp' %}" class="img-fluid testimonial-img" alt="">
-                  </div>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <div class="row gy-4 justify-content-center">
-                  <div class="col-lg-6">
-                    <div class="testimonial-content">
-                      <p>
-                        <i class="bi bi-quote quote-icon-left"></i>
-                        <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
-                        <i class="bi bi-quote quote-icon-right"></i>
-                      </p>
-                      <h3>Sara Wilsson</h3>
-                      <h4>Designer</h4>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-2 text-center">
-                    <img src="{% static 'app/assets/img/person/person-f-5.webp' %}" class="img-fluid testimonial-img" alt="">
-                  </div>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <div class="row gy-4 justify-content-center">
-                  <div class="col-lg-6">
-                    <div class="testimonial-content">
-                      <p>
-                        <i class="bi bi-quote quote-icon-left"></i>
-                        <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
-                        <i class="bi bi-quote quote-icon-right"></i>
-                      </p>
-                      <h3>Jena Karlis</h3>
-                      <h4>Store Owner</h4>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-2 text-center">
-                    <img src="{% static 'app/assets/img/person/person-f-12.webp' %}" class="img-fluid testimonial-img" alt="">
-                  </div>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <div class="row gy-4 justify-content-center">
-                  <div class="col-lg-6">
-                    <div class="testimonial-content">
-                      <p>
-                        <i class="bi bi-quote quote-icon-left"></i>
-                        <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
-                        <i class="bi bi-quote quote-icon-right"></i>
-                      </p>
-                      <h3>John Larson</h3>
-                      <h4>Entrepreneur</h4>
-                      <div class="stars">
-                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-2 text-center">
-                    <img src="{% static 'app/assets/img/person/person-m-12.webp' %}" class="img-fluid testimonial-img" alt="">
-                  </div>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-
-    </section><!-- /Testimonials Section -->
+    </section>
 
   </main>
 
-  {% endblock %}
-
-  <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Preloader -->
   <div id="preloader"></div>
 
-  <!-- Vendor JS Files -->
   <script src="{% static 'app/assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
   <script src="{% static 'app/assets/vendor/php-email-form/validate.js' %}"></script>
   <script src="{% static 'app/assets/vendor/aos/aos.js' %}"></script>
@@ -448,9 +291,9 @@
   <script src="{% static 'app/assets/vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
   <script src="{% static 'app/assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
 
-  <!-- Main JS File -->
   <script src="{% static 'app/assets/js/main.js' %}"></script>
 
 </body>
 
 </html>
+{% endblock %}
