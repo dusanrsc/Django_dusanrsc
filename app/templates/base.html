@@ -7,7 +7,7 @@
   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
 />
 
-<link rel="icon" type="image/png" href="{% static 'app/assets/img/profile/croped_profile.png' %}">
+<link rel="icon" type="image/png" href="{% static 'app/assets/img/profile/profile.png' %}">
 
 <header id="header" class="header d-flex align-items-center light-background sticky-top">
       <div class="container position-relative d-flex align-items-center justify-content-between">
@@ -32,13 +32,15 @@
           <a href="https://www.linkedin.com/in/dusan-rosic-896417287/" class="linkedin"><i class="bi bi-linkedin"></i></a>
         </div>
 
-        <!-- Make Switch Screen View Button -->
+        <!--  Make Switch Screen View Button
         <div class="mode-switch">
           <label class="switch">
             <input type="checkbox" id="modeSwitch">
             <span class="slider"></span>
           </label>
-        </div>
+        </div> -->
+
+        {% now "d-M-Y H:i" %}
 
       </div>
     </header>
@@ -49,7 +51,7 @@
 <footer id="footer" class="footer">
   <div class="container">
     <div class="copyright text-center ">
-      <p>© {% now "F Y" %} <span>Dušan Rosić.</span> <span>All Rights Reserved<br></span></p>
+      <p>© {% now "Y" %} <span>Dušan Rosić.</span> <span>All Rights Reserved<br></span></p>
 
     </div>
     <div class="social-links d-flex justify-content-center">
