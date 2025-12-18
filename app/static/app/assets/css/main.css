@@ -2903,3 +2903,13 @@ input:checked + .slider::before {
   font-size: 50px;
   color: #fff;
 }
+
+.digital-clock {
+    font-family: 'Orbitron', monospace; 
+    font-size: 1.em;                     
+    color: #ff0000;                     
+    background-color: #000000;          
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
