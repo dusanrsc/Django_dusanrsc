@@ -10,40 +10,40 @@
 <link rel="icon" type="image/png" href="{% static 'app/assets/img/profile/profileCroped.png' %}">
 
 <header id="header" class="header d-flex align-items-center light-background sticky-top">
-      <div class="container position-relative d-flex align-items-center justify-content-between">
+  <div class="container position-relative d-flex align-items-center justify-content-between">
 
-        <nav id="navmenu" class="navmenu">
-          <ul>
-            <li>
-              <a href="{% url 'index' %}" class="{% if request.resolver_match.url_name == 'index' %}active{% endif %}">Home</a>
-            </li>
-            <li>
-              <a href="{% url 'about' %}" class="{% if request.resolver_match.url_name == 'about' %}active{% endif %}">About</a>
-            </li>
-            <li>
-              <a href="{% url 'contact' %}" class="{% if request.resolver_match.url_name == 'contact' %}active{% endif %}">Contact</a>
-            </li>
-          </ul>
-          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-        </nav>
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li>
+          <a href="{% url 'index' %}" class="{% if request.resolver_match.url_name == 'index' %}active{% endif %}">Home</a>
+        </li>
+        <li>
+          <a href="{% url 'about' %}" class="{% if request.resolver_match.url_name == 'about' %}active{% endif %}">About</a>
+        </li>
+        <li>
+          <a href="{% url 'contact' %}" class="{% if request.resolver_match.url_name == 'contact' %}active{% endif %}">Contact</a>
+        </li>
+      </ul>
+      <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+    </nav>
 
-        <div class="header-social-links">
-          <a href="https://www.instagram.com/dusanrsc/" class="instagram"><i class="bi bi-instagram"></i></a>
-          <a href="https://www.linkedin.com/in/dusan-rosic-896417287/" class="linkedin"><i class="bi bi-linkedin"></i></a>
-        </div>
+    <div class="header-social-links">
+      <a href="https://www.instagram.com/dusanrsc/" class="instagram"><i class="bi bi-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/dusan-rosic-896417287/" class="linkedin"><i class="bi bi-linkedin"></i></a>
+    </div>
 
-        <!--  Make Switch Screen View Button
-        <div class="mode-switch">
-          <label class="switch">
-            <input type="checkbox" id="modeSwitch">
-            <span class="slider"></span>
-          </label>
-        </div> -->
+    <!--  Make Switch Screen View Button
+    <div class="mode-switch">
+      <label class="switch">
+        <input type="checkbox" id="modeSwitch">
+        <span class="slider"></span>
+      </label>
+    </div> -->
 
-        {% now "d/m/Y H:i" %}
+    {% now "d/m/Y H:i" %}
 
-      </div>
-    </header>
+  </div>
+</header>
 
 {% block content %}
 {% endblock %}
