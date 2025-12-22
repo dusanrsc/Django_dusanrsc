@@ -16,12 +16,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.getenv("SECRET_KEY")
 DEBUG = os.getenv("DEBUG", "False") == "True"
 
-ALLOWED_HOSTS = [
-    "127.0.0.1",
-    "localhost",
-    "192.168.0.184",
-    "dusanrsc.com"
-]
+ALLOWED_HOSTS = ["dusanrsc.pythonanywhere.com"]
 
 # Application definition
 INSTALLED_APPS = [
